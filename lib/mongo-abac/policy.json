@@ -1,6 +1,6 @@
 [{
     "user_attributes":{
-        "position":"Manager", "region":"India"
+        "position":"Director", "region":"India"
     },
     "object_attributes":{
         "region":"India", "readonly":"no"
@@ -9,12 +9,12 @@
         "time":["office-hours"], "ip":["127\\.[0-9]+\\.[0-9]+\\.[0-9]+"]
     },
     "permissions":{
-        "inventory":["find"], "messages":["find", "count", "insert"]
+        "employee":["find"], "messages":["find", "count", "insert"]
     }
 },
 {
     "user_attributes":{
-        "position":"Developer", "region":"USA"
+        "position":"Tester", "region":"USA"
     },
     "object_attributes":{
         "region":"USA"
@@ -23,7 +23,7 @@
         "time":["office-hours"], "ip":["172\\.[0-9]+\\.[0-9]+\\.[0-9]+", "192.\\.[0-9]+\\.[0-9]+\\.[0-9]+"]
     },
     "permissions":{
-        "inventory":["insert"], "profiles":["find", "insert"]
+        "employee":["insert"], "profiles":["find", "insert"]
     }
 }
 ]

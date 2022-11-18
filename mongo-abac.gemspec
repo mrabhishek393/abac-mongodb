@@ -31,7 +31,6 @@ Gem::Specification.new do |gem|
   gem.required_rubygems_version = Gem::Requirement.new(">= 1.3.6")
   gem.summary = %q{A proxy server for providing Attribute-based Access Control support in MongoDB.}
   gem.test_files = Dir['spec/**/*']
-  # gem.version = MongoABAC::VERSION
   gem.version='1.0.1'
   gem.license = 'MIT'
 end
